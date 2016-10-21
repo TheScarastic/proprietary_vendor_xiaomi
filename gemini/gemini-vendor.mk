@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/xiaomi/gemini/proprietary/etc/acdbdata/adsp_avs_config.acdb:system/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_General_cal.acdb:system/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/etc/acdbdata/Forte/Forte_Global_cal.acdb \
