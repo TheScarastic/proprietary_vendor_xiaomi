@@ -99,8 +99,8 @@ special_mode_mask values:
       <ISPPreview>s5k5e8_ofilm_snapshot</ISPPreview>
       <ISPSnapshot>s5k5e8_ofilm_snapshot</ISPSnapshot>
       <ISPVideo>s5k5e8_ofilm_snapshot</ISPVideo>
-      <CPPPreview>s5k5e8_ofilm_cpp_preview</CPPPreview>
-      <CPPSnapshot>s5k5e8_ofilm_cpp_snapshot</CPPSnapshot>
+      <CPPPreview>s5k5e8_ofilm_cpp_liveshot</CPPPreview>
+      <CPPSnapshot>s5k5e8_ofilm_cpp_liveshot</CPPSnapshot>
       <CPPVideo>s5k5e8_ofilm_cpp_video</CPPVideo>
       <CPPLiveshot>s5k5e8_ofilm_cpp_liveshot</CPPLiveshot>
       <A3Preview>s5k5e8_ofilm_default_preview_3a</A3Preview>
