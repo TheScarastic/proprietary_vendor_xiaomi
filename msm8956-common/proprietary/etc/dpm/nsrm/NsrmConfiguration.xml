@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--Copyright (c) 2014-2015 Qualcomm Technologies, Inc.  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.-->
+<!--Copyright (c) 2014-2017 Qualcomm Technologies, Inc.  All 
+    Rights Reserved. Qualcomm Technologies Proprietary and
+    Confidential.-->
 <NsrmPolicy>
   <Nsrm>
     <!--The version of the NSRM software-->
     <Version>2.0</Version>
     <!--Length of time in seconds to keep gate open each time it is opened
         valid values 1 to 24*60*60 seconds-->
-    <GateOpenTime>1</GateOpenTime>
+    <GateOpenWwanTime>1</GateOpenWwanTime>
+    <!--Length of time in seconds to keep gate open each time it is opened
+        valid values 1 to 24*60*60 seconds-->
+    <GateOpenWlanTime>10</GateOpenWlanTime>
     <!--Maximum time in seconds to wait before forcing gate open for connect,
          getaddrinfo or other resolver calls
          valid values 1 to 24*60*60 seconds-->
@@ -25,7 +30,6 @@
     <SharedUIDMode>Conservative</SharedUIDMode>
     <!--List of applications which to apply Nsrm to-->
     <AppList Type="Exclusion">
-    <AppName>com.whatsapp</AppName>
     </AppList>
     <!-- Example MCC_MNC configuration
          NTO values are configured in seconds
@@ -40,6 +44,10 @@
     </MCC_MNC-->
     <MCC_MNC value="Default">
         <port value="0" NTO="300"/>
+    </MCC_MNC>
+
+    <MCC_MNC value="Wlan">
+        <port value="0" NTO="900"/>
     </MCC_MNC>
 
     <!-- Good Threshold. Double type. Range: [0.0 - 10.0] -->
@@ -80,6 +88,13 @@
 
     <!-- Decision made. 0 false, 1 true -->
     <DNsrmEnable>1</DNsrmEnable>
+
+    <!-- Nsrm Wlan Enable . 0 Disable, 1 Enable -->
+    <NsrmWlanEnable>0</NsrmWlanEnable>
+
+    <!-- Nsrm Wlan 0 Aggressive, 1 Conservative -->
+    <NsrmWlanMode>1</NsrmWlanMode>
+
   </Nsrm>
   <!-- The next element is for reference only to show how to config NSRM
        parameters for another version that may be supported on the device -->
