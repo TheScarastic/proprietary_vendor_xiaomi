@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/msm8998-common/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/msm8998-common/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-alarm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-alarm.xml \
     vendor/xiaomi/msm8998-common/proprietary/vendor/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcrilhook.jar \
     vendor/xiaomi/msm8998-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/libMiCameraHal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiCameraHal.so \
@@ -62,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/xiaomi/msm8998-common/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
@@ -87,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/xiaomi/msm8998-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/xiaomi/msm8998-common/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/msm8998-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/xiaomi/msm8998-common/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
     vendor/xiaomi/msm8998-common/proprietary/vendor/etc/perf/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile1.conf \
@@ -117,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/msm8998-common/proprietary/vendor/firmware/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn553_fw.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -355,6 +359,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8998.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8998.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/hw/vulkan.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8998.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
@@ -470,6 +475,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
     vendor/xiaomi/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
@@ -493,4 +499,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     QtiTelephonyService \
     datastatusnotification \
+    PowerOffAlarm \
     TimeService
