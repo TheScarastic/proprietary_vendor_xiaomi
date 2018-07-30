@@ -474,7 +474,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/polaris/proprietary/lib64/vndk-sp-compat/liblzma.so:system/lib64/vndk-sp-compat/liblzma.so \
     vendor/xiaomi/polaris/proprietary/lib64/vndk-sp-compat/libpng.so:system/lib64/vndk-sp-compat/libpng.so \
     vendor/xiaomi/polaris/proprietary/lib64/vndk-sp-compat/libunwind.so:system/lib64/vndk-sp-compat/libunwind.so \
-    vendor/xiaomi/polaris/proprietary/lib64/vndk-sp-compat/libutils.so:system/lib64/vndk-sp-compat/libutils.so
+    vendor/xiaomi/polaris/proprietary/lib64/vndk-sp-compat/libutils.so:system/lib64/vndk-sp-compat/libutils.so \
+    vendor/xiaomi/polaris/proprietary/bin/time_daemon:system/bin/time_daemon
 
 PRODUCT_PACKAGES += \
     libantradio \
