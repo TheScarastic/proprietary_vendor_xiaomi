@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
-    vendor/xiaomi/capricorn/proprietary/vendor/lib/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.qcom.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libSonyIMX378PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX378PdafLibrary.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libactuator_ak7371_a7_liteon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_a7_liteon.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libactuator_ak7371_a7_semco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_a7_semco.so \
@@ -214,8 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_eeprom.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libmmcamera_ov4688_primax_a7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_primax_a7.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx378_eeprom.so \
-    vendor/xiaomi/capricorn/proprietary/vendor/lib/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp-service.so \
-    vendor/xiaomi/capricorn/proprietary/vendor/lib/qfp.wakeup.so:$(TARGET_COPY_OUT_VENDOR)/lib/qfp.wakeup.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib64/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.qcom.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib64/qfp.wakeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qfp.wakeup.so
