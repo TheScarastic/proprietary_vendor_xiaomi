@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/natrium/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/natrium/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_xcmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_xcmd_incell_dsi_panel.xml \
     vendor/xiaomi/natrium/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_xcmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_fhd_xcmd_incell_dsi_panel.xml \
-    vendor/xiaomi/natrium/proprietary/vendor/firmware/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn551_fw.so \
+    vendor/xiaomi/natrium/proprietary/vendor/lib/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn551_fw.so \
     vendor/xiaomi/natrium/proprietary/vendor/lib/libactuator_lc898214xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898214xc.so \
     vendor/xiaomi/natrium/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so \
     vendor/xiaomi/natrium/proprietary/vendor/lib/libactuator_lc898217xc_a4_semco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc_a4_semco.so \
