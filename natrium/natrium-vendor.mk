@@ -199,4 +199,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/natrium/proprietary/vendor/lib/libmmcamera_imx258_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_ofilm.so \
     vendor/xiaomi/natrium/proprietary/vendor/lib/libmmcamera_ov4688_b7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_b7.so \
     vendor/xiaomi/natrium/proprietary/vendor/lib/libmmcamera_ov4688_b7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_b7_eeprom.so \
-    vendor/xiaomi/natrium/proprietary/vendor/lib/libmmcamera_ov4688_primax_b7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_primax_b7.so
+    vendor/xiaomi/natrium/proprietary/vendor/lib/libmmcamera_ov4688_primax_b7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_primax_b7.so \
+    vendor/xiaomi/natrium/proprietary/vendor/lib/rfsa/adsp/libdirac-appi.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdirac-appi.so

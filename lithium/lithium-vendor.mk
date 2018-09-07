@@ -121,4 +121,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov5675_primax.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5675_primax.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_s5k3p3_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_qtech.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_s5k3p3_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_qtech_eeprom.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/rfsa/adsp/libdirac-appi.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdirac-appi.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/sensors.elliptic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.elliptic.so

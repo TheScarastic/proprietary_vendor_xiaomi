@@ -176,4 +176,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_primax.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx318_primax.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_primax_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx318_primax_eeprom.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx318_semco.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx318_semco_eeprom.so
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libmmcamera_imx318_semco_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx318_semco_eeprom.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/rfsa/adsp/libdirac-appi.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdirac-appi.so
